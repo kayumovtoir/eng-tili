@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qushlar haqida sahifa</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<style>
+    body {
+        color: white;
+        margin: 0;
+    }
+    .container {
+        max-width: 1092px;
+        min-height: 400px;
+        /* background-color: red; */
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-top: 120px;
+    }
+    .top-container {
+        width: 100%;
+        min-height: 80px;
+        background-color: rgb(100, 100, 100);
+        margin-bottom: 40px;
+        position: fixed;
+    }
+    .bolded {
+        font-weight: bold;
+    }
+    header{
+        max-width: 1092px;
+        min-height: 80px;
+        margin:0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-transform: uppercase;
+        font-family: 'Courier New', Courier, monospace;
+
+    }
+    nav a {
+    color: white;
+    text-decoration: none;
+    border: solid 1px white;
+    padding: 7px 13px;
+    }
+    .col {
+        width: 30%;
+        min-height: 100px;
+        background-color: rgb(251, 171, 19);
+        margin-bottom: 40px;
+    }
+    .col p {
+    padding: 10px 20px ;
+    text-align: center;
+    }
+    col p :: first line {
+    font-weight: bold;
+    
+    }
+    .col img {
+        width: 100%;
+
+    }
+    @media (max-width: 786px) {
+.col {
+    width: 45%;
+}
+.hidep {
+display: none;
+}
+    nav a {
+        display: block;
+    }
+    header {
+        display: block;
+        text-align: center;
+    }
+    .logo {
+        padding: 15px 0;
+    }
+    }
+    @media (max-width: 500px) {
+.col {
+    width: 100%;
+}
+.hidem {
+    display: none;
+}
+    }
+</style>
+<body>
+    <div class="top-container">
+        <header>
+            <div class="logo">
+                <span class="bolded"> Qushlar </span>haqida sahifa
+            </div>
+            <nav>
+                <a href="#">Hakida</a>
+                <a href="#">Narxlar</a>
+                <a href="#">Kontakt</a>
+            </nav>
+        </header>
+    </div>
+<div class="container">
+    <div class="col"><img src="imeges/image1.png" alt=""><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et, consequuntur?</p></div>
+    <div class="col"><img src="imeges/image2.png" alt=""><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et, consequuntur?</p></div>
+    <div class="col"><img src="imeges/image3.png" alt=""><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et, consequuntur?</p></div>
+    <div class="col"><img src="imeges/image4.png" alt=""><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et, consequuntur?</p></div>
+    <div class="col"><img src="imeges/image5.png" alt=""><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et, consequuntur?</p></div>
+    <div class="col"><img src="imeges/image6.png" alt=""><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et, consequuntur?</p></div>
+    <div class="col"><img src="imeges/image7.png" alt=""><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et, consequuntur?</p></div>
+    <div class="col"><img src="imeges/image8.png" alt=""><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et, consequuntur?</p></div>
+    <div class="col"><img src="imeges/image9.png" alt=""><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et, consequuntur?</p></div>
+</div>    
+</body>
+</html>
